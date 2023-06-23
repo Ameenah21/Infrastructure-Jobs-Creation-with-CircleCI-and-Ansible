@@ -1,12 +1,12 @@
 #EC2 Instance Creation and Configuration with-CircleCI-and-Ansible
 This project provides a template and configuration files for creating and configuring EC2 instances using Ansible and CircleCI. The goal is to automate the provisioning and setup of EC2 instances for your repository.
 
-#Prerequisites
+# Prerequisites
 Before getting started, make sure you have the following prerequisites installed:
 
-Ansible: [Installation Guide](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
-CircleCI CLI: [Installation Guide](https://circleci.com/docs/local-cli/#installation)
-AWS CLI: [Installation Guide](https://aws.amazon.com/cli/)
+- Ansible: [Installation Guide](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
+- CircleCI CLI: [Installation Guide](https://circleci.com/docs/local-cli/#installation)
+- AWS CLI: [Installation Guide](https://aws.amazon.com/cli/)
 # Project Structure
 The project contains the following files and folders:
 
@@ -15,7 +15,7 @@ The project contains the following files and folders:
 - ansible folder: Contains Ansible roles and playbook for configuring the EC2 instances.
 - inventory: Inventory file listing the target EC2 instances.
 
-#Getting Started
+# Getting Started
 To use this project, follow these steps:
 
 1. Clone the repository to your local machine.
@@ -24,7 +24,7 @@ To use this project, follow these steps:
 4. Modify the Ansible roles in the ansible folder to configure your instances as needed.
 5. Update the CircleCI configuration files in the circleci folder to match your repository's structure and requirements.
 
-#Provisioning EC2 Instances
+# Provisioning EC2 Instances
 To provision EC2 instances using the CloudFormation template:
 
 1. Open the AWS Management Console.
